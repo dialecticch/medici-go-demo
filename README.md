@@ -9,6 +9,8 @@ For further details check out the following articles:
  - [Chronograph: Institutional Grade Yield Farming
 ](https://dialectic.ch/editorial/chronograph-overview)
 
+Contracts can be found [here](https://github.com/dialecticch/medici-contracts-demo).
+
 ## Tools
 
 Medici is made up of several tools.
