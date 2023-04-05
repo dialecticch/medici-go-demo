@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS harvests;
+
+DROP TABLE IF EXISTS transactions;
+DROP TYPE IF EXISTS transaction_type;
+
+DROP TABLE IF EXISTS safe_pools;
+DROP TYPE IF EXISTS harvest_action;
+
+DROP TABLE IF EXISTS pools;
+
+DROP TABLE IF EXISTS safes;
+
+DROP TABLE IF EXISTS versions;
+
+DROP TABLE IF EXISTS strategies;
+
+DROP TABLE IF EXISTS tokens;
+
+DROP VIEW IF EXISTS latest_versions;

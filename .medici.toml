@@ -1,0 +1,98 @@
+[db]
+host = "TODO"
+port = 25060
+user = "TODO"
+password = "TODO"
+database = "defaultdb"
+ssl = "require"
+
+[slack]
+webhook = "TODO"
+
+[aggregator.one_inch]
+name = "1Inch Aggregator"
+base_url = "https://api.1inch.exchange/v4.0"
+
+[network.1]
+node = "TODO"
+sender_rpc = "https://rpc.flashbots.net/"
+symbol = "ETH"
+stablecoin = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+stablecoin_decimals = 6
+wrapped_token = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+explorer = "https://etherscan.io"
+epoch = 5
+aggregator = "one_inch"
+
+no_sell_tokens = ["0x4da27a545c0c5b758a6ba100e3a049001de870f5"]
+
+[network.137]
+node = "TODO"
+symbol = "MATIC"
+stablecoin = "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+stablecoin_decimals = 6
+explorer = "https://polygonscan.com"
+epoch = 5
+aggregator = "one_inch"
+
+no_sell_tokens = []
+
+[network.250]
+node = "TODO"
+symbol = "FTM"
+stablecoin = "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e"
+stablecoin_decimals = 18
+wrapped_token = "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83"
+explorer = "https://ftmscan.com"
+epoch = 5
+aggregator = "one_inch"
+
+no_sell_tokens = []
+
+[network.1285]
+node = "TODO"
+symbol = "MOVR"
+stablecoin = "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
+stablecoin_decimals = 6
+wrapped_token = "0xf50225a84382c74CbdeA10b0c176f71fc3DE0C4d"
+explorer = "https://blockscout.moonriver.moonbeam.network"
+epoch = 5
+aggregator = "one_inch"
+
+no_sell_tokens = []
+
+[network.43114]
+node = "TODO"
+symbol = "AVAX"
+stablecoin = "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+stablecoin_decimals = 6
+wrapped_token = "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7"
+explorer = "https://snowtrace.io"
+epoch = 20
+aggregator = "one_inch"
+
+no_sell_tokens = []
+
+[network.10]
+node = "TODO"
+symbol = "ETH"
+stablecoin = "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+stablecoin_decimals = 6
+wrapped_token = "0x4200000000000000000000000000000000000006"
+explorer = "https://optimistic.etherscan.io"
+epoch = 20
+aggregator = "one_inch"
+
+no_sell_tokens = []
+
+[network.42161]
+node = "TODO"
+symbol = "ETH"
+stablecoin = "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+stablecoin_decimals = 6
+wrapped_token = "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+explorer = "https://arbiscan.io"
+epoch = 20
+aggregator = "one_inch"
+
+no_sell_tokens = []
